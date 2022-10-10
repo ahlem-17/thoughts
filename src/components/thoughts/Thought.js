@@ -10,7 +10,7 @@ export function Thought(props) {
       removeThought(thought.id)
     }, timeRemaining)
     return () => { clearTimeout(timeout)}
-  }, []);
+  }, [thought, removeThought]);
 
   const handleRemoveClick = () => {
     removeThought(thought.id);
