@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { AddThoughtForm } from '../thoughts/AddThoughtForm';
-import { Thought } from '../thoughts/thoughts';
+import { Thought } from '../thoughts/Thought';
 import { generateId, getNewExpirationTime } from '../thoughts/utilities';
 import './App.css';
 
